@@ -10,9 +10,9 @@ function App() {
   
   return (
     <div className="App">
-      <button className="increment" onClick={()=>{let value = counter+1; console.log("increment clicked"); setCounter(value)}}>++</button>
+      <button className="++" onClick={()=>{let value = counter+1; console.log("increment clicked"); setCounter(value)}}>++</button>
       <p className="counterValue">{counter}</p>
-      <button className="decrement" onClick={()=>{let value=counter-1; setCounter(value)}}>--</button>
+      <button className="--" onClick={()=>{let value=counter-1; setCounter(value)}}>--</button>
     </div>
   );
 }
